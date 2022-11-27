@@ -20,6 +20,7 @@ type
       procedure CriaConexao;
       function ReadIniFileStr(Section, Name: String): String;
       procedure WriteIniFileStr(Section, Name, Value: String);
+      procedure WriteIniFileStr2(Section, Name, Value: String);
 
     public
 
@@ -35,7 +36,8 @@ implementation
 
 procedure TModelConexao.CriaConexao;
 begin
-  FPath := 'C:\Projetos_Lazarus\Compras_ERP\Config\';
+  FPath := ChangeFileExt('config_db','.INI');
+
 
   WriteIniFileStr('', '', '');
   FConexao := TZConnection.Create(Nil);
@@ -65,7 +67,19 @@ procedure TModelConexao.WriteIniFileStr(Section, Name, Value: String);
 var
   Fini: TIniFile;
 begin
-  Fini := TIniFile.Create(FPath+'config_db.INI');
+  Fini := TIniFile.Create(FPath);
+  try
+    FIni.WriteString(Section, Name, Value);
+  finally
+    Fini.Free;
+  end;
+end;
+
+procedure TModelConexao.WriteIniFileStr2(Section, Name, Value: String);
+var
+  Fini: TIniFile;
+begin
+  Fini := TIniFile.Create(ChangeFileExt(ApplicationName, '.INI'));
   try
     FIni.WriteString(Section, Name, Value);
   finally

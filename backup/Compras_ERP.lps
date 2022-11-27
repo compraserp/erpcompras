@@ -8,11 +8,9 @@
       <Unit0>
         <Filename Value="Compras_ERP.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="20"/>
-        <UsageCount Value="98"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="99"/>
       </Unit0>
       <Unit1>
         <Filename Value="View\view.principal.pas"/>
@@ -23,7 +21,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="241"/>
         <CursorPos X="34" Y="256"/>
-        <UsageCount Value="98"/>
+        <UsageCount Value="99"/>
       </Unit1>
       <Unit2>
         <Filename Value="View\view.cad.laudos.pas"/>
@@ -40,18 +38,19 @@
         <ComponentName Value="FormAnaliseCompras"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="242"/>
-        <CursorPos X="40" Y="291"/>
-        <UsageCount Value="94"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="325"/>
+        <CursorPos X="25" Y="487"/>
+        <UsageCount Value="95"/>
       </Unit3>
       <Unit4>
         <Filename Value="Data\model.conexao.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="20"/>
-        <CursorPos X="64" Y="53"/>
-        <UsageCount Value="93"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="66"/>
+        <CursorPos X="32" Y="94"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="Classes\classe.cad.auditoria.pas"/>
@@ -65,7 +64,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="6"/>
-        <UsageCount Value="91"/>
+        <UsageCount Value="92"/>
       </Unit6>
       <Unit7>
         <Filename Value="Relatorios\view.rel.compcadauditoria.pas"/>
@@ -88,7 +87,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="144"/>
         <CursorPos X="32" Y="150"/>
-        <UsageCount Value="83"/>
+        <UsageCount Value="84"/>
       </Unit8>
       <Unit9>
         <Filename Value="Classes\classe.cad.compradores.pas"/>
@@ -96,7 +95,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
         <CursorPos X="49" Y="62"/>
-        <UsageCount Value="82"/>
+        <UsageCount Value="83"/>
       </Unit9>
       <Unit10>
         <Filename Value="View\Login\view.login.pas"/>
@@ -104,17 +103,18 @@
         <ComponentName Value="FormLogin"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="54"/>
-        <CursorPos X="36" Y="89"/>
-        <UsageCount Value="80"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="51"/>
+        <CursorPos Y="100"/>
+        <UsageCount Value="81"/>
+        <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="Classes\classe.usuarios.login.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="23" Y="41"/>
-        <UsageCount Value="80"/>
+        <UsageCount Value="81"/>
       </Unit11>
       <Unit12>
         <Filename Value="View\view.cad.itens.pas"/>
@@ -125,7 +125,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="212"/>
         <CursorPos X="40" Y="242"/>
-        <UsageCount Value="79"/>
+        <UsageCount Value="80"/>
       </Unit12>
       <Unit13>
         <Filename Value="Classes\classe.cad.produto.pas"/>
@@ -133,7 +133,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="55"/>
         <CursorPos Y="63"/>
-        <UsageCount Value="75"/>
+        <UsageCount Value="76"/>
       </Unit13>
       <Unit14>
         <Filename Value="Classes\classe.funcoesauxiliares.pas"/>
@@ -141,7 +141,7 @@
         <UnitName Value="classe.funcoesAuxiliares"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="6"/>
-        <UsageCount Value="72"/>
+        <UsageCount Value="73"/>
       </Unit14>
       <Unit15>
         <Filename Value="View\view.cad.medias.produto.pas"/>
@@ -152,7 +152,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="187"/>
         <CursorPos X="10" Y="188"/>
-        <UsageCount Value="71"/>
+        <UsageCount Value="72"/>
       </Unit15>
       <Unit16>
         <Filename Value="Classes\classe.cad.medias.pas"/>
@@ -160,7 +160,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="64"/>
         <CursorPos X="72" Y="64"/>
-        <UsageCount Value="68"/>
+        <UsageCount Value="69"/>
       </Unit16>
       <Unit17>
         <Filename Value="Relatorios\view.rel.produtosemcompra.pas"/>
@@ -170,7 +170,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="6"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="61"/>
       </Unit17>
       <Unit18>
         <Filename Value="Relatorios\view.rel.produtosemsaida.pas"/>
@@ -180,7 +180,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="69" Y="17"/>
-        <UsageCount Value="59"/>
+        <UsageCount Value="60"/>
       </Unit18>
       <Unit19>
         <Filename Value="View\view.resumo.produtos.pas"/>
@@ -191,7 +191,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="72"/>
         <CursorPos X="42" Y="108"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
       </Unit19>
       <Unit20>
         <Filename Value="Classes\classe.resumo.produtos.pas"/>
@@ -199,7 +199,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="41"/>
         <CursorPos X="26" Y="62"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
       </Unit20>
       <Unit21>
         <Filename Value="View\Pesquisa\view.pesquisa.multiselecao.pas"/>
@@ -210,7 +210,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="159"/>
         <CursorPos X="44" Y="169"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="53"/>
       </Unit21>
       <Unit22>
         <Filename Value="Classes\classe.analise.pas"/>
@@ -218,7 +218,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="3" Y="175"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="52"/>
       </Unit22>
       <Unit23>
         <Filename Value="Classes\classe.pesquisa.pas"/>
@@ -226,7 +226,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="25"/>
         <CursorPos X="48" Y="44"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="52"/>
       </Unit23>
       <Unit24>
         <Filename Value="View\view.pedido.entregar.pas"/>
@@ -237,14 +237,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="35" Y="48"/>
-        <UsageCount Value="37"/>
+        <UsageCount Value="38"/>
       </Unit24>
       <Unit25>
         <Filename Value="Classes\classe.pedido.entrega.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="29" Y="9"/>
-        <UsageCount Value="37"/>
+        <UsageCount Value="38"/>
       </Unit25>
       <Unit26>
         <Filename Value="View\view.sobre.pas"/>
@@ -254,7 +254,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="69" Y="3"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="28"/>
       </Unit26>
       <Unit27>
         <Filename Value="Relatorios\view.rel.pedido.pas"/>
@@ -265,7 +265,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="71"/>
         <CursorPos X="5" Y="88"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="27"/>
       </Unit27>
       <Unit28>
         <Filename Value="Data\dtm.conexao.pas"/>
@@ -338,11 +338,35 @@
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit37>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="7" HistoryIndex="6">
       <Position1>
-        <Filename Value="View\view.entidade.analise.pas"/>
-        <Caret Line="291" Column="40" TopLine="242"/>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="40" Column="8" TopLine="20"/>
       </Position1>
+      <Position2>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="77" TopLine="50"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="92" Column="48" TopLine="65"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="78" TopLine="53"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="23" Column="33" TopLine="2"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Data\model.conexao.pas"/>
+        <Caret Line="70" Column="32" TopLine="35"/>
+      </Position6>
+      <Position7>
+        <Filename Value="View\Login\view.login.pas"/>
+        <Caret Line="103" Column="88" TopLine="81"/>
+      </Position7>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
