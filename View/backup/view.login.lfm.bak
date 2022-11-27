@@ -1,0 +1,76 @@
+object FormLogin: TFormLogin
+  Left = 462
+  Height = 468
+  Top = 236
+  Width = 738
+  BorderStyle = bsDialog
+  Caption = 'Login'
+  ClientHeight = 468
+  ClientWidth = 738
+  LCLVersion = '2.0.0.4'
+  object ImgLogin: TImage
+    Left = 0
+    Height = 468
+    Top = 0
+    Width = 378
+    Align = alLeft
+    Stretch = True
+  end
+  object EditUsuario: TLabeledEdit
+    Left = 424
+    Height = 29
+    Top = 184
+    Width = 248
+    CharCase = ecUppercase
+    EditLabel.Height = 21
+    EditLabel.Width = 248
+    EditLabel.Caption = 'Usuário/Comprador'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Height = -16
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 0
+  end
+  object LabelSenha: TLabel
+    Left = 424
+    Height = 21
+    Top = 221
+    Width = 43
+    Caption = 'Senha'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditSenha: TEdit
+    Left = 424
+    Height = 29
+    Top = 243
+    Width = 248
+    EchoMode = emPassword
+    Font.Height = -16
+    ParentFont = False
+    PasswordChar = '#'
+    TabOrder = 1
+  end
+  object ButtonEntrar: TBitBtn
+    Left = 424
+    Height = 30
+    Top = 288
+    Width = 248
+    Caption = 'Entrar'
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 480
+    Height = 30
+    Top = 328
+    Width = 144
+    Caption = 'Cancelar'
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 3
+  end
+end

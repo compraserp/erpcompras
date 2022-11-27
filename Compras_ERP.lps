@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="38">
+      <Unit0>
+        <Filename Value="Compras_ERP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos Y="45"/>
+        <UsageCount Value="98"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="View\view.principal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos X="34" Y="256"/>
+        <UsageCount Value="98"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="View\view.cad.laudos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadLaudos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="18"/>
+        <UsageCount Value="97"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="View\view.entidade.analise.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAnaliseCompras"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="374"/>
+        <CursorPos X="12" Y="441"/>
+        <UsageCount Value="94"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Data\model.conexao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="24" Y="23"/>
+        <UsageCount Value="93"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Classes\classe.cad.auditoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="38" Y="69"/>
+        <UsageCount Value="93"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Types\types.actions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="91"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Relatorios\view.rel.compcadauditoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRelCompAudit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="view.rel.compCadAuditoria"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="39" Y="52"/>
+        <UsageCount Value="84"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="View\view.entidade.cadcomprador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadComprador"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="view.entidade.cadComprador"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="32" Y="150"/>
+        <UsageCount Value="83"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Classes\classe.cad.compradores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="49" Y="62"/>
+        <UsageCount Value="82"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="View\Login\view.login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="33"/>
+        <CursorPos X="36" Y="89"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Classes\classe.usuarios.login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="41"/>
+        <UsageCount Value="80"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="View\view.cad.itens.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadProdutos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="212"/>
+        <CursorPos X="40" Y="242"/>
+        <UsageCount Value="79"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Classes\classe.cad.produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos Y="63"/>
+        <UsageCount Value="75"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Classes\classe.funcoesauxiliares.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="classe.funcoesAuxiliares"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="72"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="View\view.cad.medias.produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCadMedias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="187"/>
+        <CursorPos X="10" Y="188"/>
+        <UsageCount Value="71"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Classes\classe.cad.medias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="72" Y="64"/>
+        <UsageCount Value="68"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="Relatorios\view.rel.produtosemcompra.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRelProdSemCompra"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="60"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="Relatorios\view.rel.produtosemsaida.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRelProdSemSaidas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="17"/>
+        <UsageCount Value="59"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="View\view.resumo.produtos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormResumoProdutos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos X="42" Y="108"/>
+        <UsageCount Value="58"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Classes\classe.resumo.produtos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="26" Y="62"/>
+        <UsageCount Value="58"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="View\Pesquisa\view.pesquisa.multiselecao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPesquisaMultiSelecao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="159"/>
+        <CursorPos X="44" Y="169"/>
+        <UsageCount Value="52"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="Classes\classe.analise.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="3" Y="175"/>
+        <UsageCount Value="51"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="Classes\classe.pesquisa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="48" Y="44"/>
+        <UsageCount Value="51"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="View\view.pedido.entregar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormEntregarPedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="35" Y="48"/>
+        <UsageCount Value="37"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="Classes\classe.pedido.entrega.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="9"/>
+        <UsageCount Value="37"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="View\view.sobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSobre"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="3"/>
+        <UsageCount Value="27"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="Relatorios\view.rel.pedido.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRelPedido"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="5" Y="88"/>
+        <UsageCount Value="26"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="Data\dtm.conexao.pas"/>
+        <ComponentName Value="DtmConexao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="75" Y="14"/>
+        <UsageCount Value="22"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="View\view.login.pas"/>
+        <ComponentName Value="FormLogin"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="View\Login\view.login.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="904"/>
+        <CursorPos Y="940"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\lazarus\lcl\include\spinedit.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="135"/>
+        <CursorPos Y="154"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\Users\maico\AppData\Local\lazarus\onlinepackagemanager\packages\UserControl\source\UCBase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3817"/>
+        <CursorPos Y="3835"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="C:\lazarus\lcl\include\menuitem.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos Y="85"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3413"/>
+        <CursorPos Y="3431"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\Users\maico\Downloads\Classes_Ger\cCadProdutos.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\Users\maico\Desktop\site_agroleste.txt"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit37>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="View\Login\view.login.pas"/>
+        <Caret Line="56" Column="14" TopLine="38"/>
+      </Position1>
+      <Position2>
+        <Filename Value="View\Login\view.login.pas"/>
+        <Caret Line="58" Column="14" TopLine="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="View\Login\view.login.pas"/>
+        <Caret Line="88" Column="36" TopLine="84"/>
+      </Position3>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

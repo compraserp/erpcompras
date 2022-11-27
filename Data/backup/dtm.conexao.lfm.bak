@@ -1,0 +1,26 @@
+object DtmConexao: TDtmConexao
+  OldCreateOrder = False
+  Height = 287
+  HorizontalOffset = 1112
+  VerticalOffset = 178
+  Width = 364
+  PPI = 96
+  object ConexaoDB: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    Connected = True
+    HostName = 'localhost'
+    Port = 0
+    Database = 'db_auditoria'
+    User = 'postgres'
+    Password = 'turing'
+    Protocol = 'postgresql'
+    LibraryLocation = 'C:\Projetos_Lazarus\SysAudit\Libs\lib64\libpq.dll'
+    left = 88
+    top = 32
+  end
+end
