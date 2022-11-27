@@ -52,7 +52,7 @@
         <PackageName Value="LCL"/>
       </Item8>
     </RequiredPackages>
-    <Units Count="28">
+    <Units Count="25">
       <Unit0>
         <Filename Value="Compras_ERP.pas"/>
         <IsPartOfProject Value="True"/>
@@ -65,154 +65,135 @@
         <ResourceBaseClass Value="Form"/>
       </Unit1>
       <Unit2>
-        <Filename Value="View\view.cad.laudos.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FormCadLaudos"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-      </Unit2>
-      <Unit3>
         <Filename Value="View\view.entidade.analise.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormAnaliseCompras"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Data\model.conexao.pas"/>
+        <IsPartOfProject Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="Data\model.conexao.pas"/>
+        <Filename Value="Types\types.actions.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
       <Unit5>
-        <Filename Value="Classes\classe.cad.auditoria.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="Types\types.actions.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="Relatorios\view.rel.compcadauditoria.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FormRelCompAudit"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="view.rel.compCadAuditoria"/>
-      </Unit7>
-      <Unit8>
         <Filename Value="View\view.entidade.cadcomprador.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormCadComprador"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="view.entidade.cadComprador"/>
-      </Unit8>
-      <Unit9>
+      </Unit5>
+      <Unit6>
         <Filename Value="Classes\classe.cad.compradores.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit9>
-      <Unit10>
+      </Unit6>
+      <Unit7>
         <Filename Value="View\Login\view.login.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormLogin"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit10>
-      <Unit11>
+      </Unit7>
+      <Unit8>
         <Filename Value="Classes\classe.usuarios.login.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit11>
-      <Unit12>
+      </Unit8>
+      <Unit9>
         <Filename Value="View\view.cad.itens.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormCadProdutos"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit12>
-      <Unit13>
+      </Unit9>
+      <Unit10>
         <Filename Value="Classes\classe.cad.produto.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit13>
-      <Unit14>
+      </Unit10>
+      <Unit11>
         <Filename Value="Classes\classe.funcoesauxiliares.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="classe.funcoesAuxiliares"/>
-      </Unit14>
-      <Unit15>
+      </Unit11>
+      <Unit12>
         <Filename Value="View\view.cad.medias.produto.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormCadMedias"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit15>
-      <Unit16>
+      </Unit12>
+      <Unit13>
         <Filename Value="Classes\classe.cad.medias.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit16>
-      <Unit17>
+      </Unit13>
+      <Unit14>
         <Filename Value="Relatorios\view.rel.produtosemcompra.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormRelProdSemCompra"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit17>
-      <Unit18>
+      </Unit14>
+      <Unit15>
         <Filename Value="Relatorios\view.rel.produtosemsaida.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormRelProdSemSaidas"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit18>
-      <Unit19>
+      </Unit15>
+      <Unit16>
         <Filename Value="View\view.resumo.produtos.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormResumoProdutos"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit19>
-      <Unit20>
+      </Unit16>
+      <Unit17>
         <Filename Value="Classes\classe.resumo.produtos.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit20>
-      <Unit21>
+      </Unit17>
+      <Unit18>
         <Filename Value="View\Pesquisa\view.pesquisa.multiselecao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormPesquisaMultiSelecao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit21>
-      <Unit22>
+      </Unit18>
+      <Unit19>
         <Filename Value="Classes\classe.analise.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit22>
-      <Unit23>
+      </Unit19>
+      <Unit20>
         <Filename Value="Classes\classe.pesquisa.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit23>
-      <Unit24>
+      </Unit20>
+      <Unit21>
         <Filename Value="View\view.pedido.entregar.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormEntregarPedidos"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit24>
-      <Unit25>
+      </Unit21>
+      <Unit22>
         <Filename Value="Classes\classe.pedido.entrega.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit25>
-      <Unit26>
+      </Unit22>
+      <Unit23>
         <Filename Value="View\view.sobre.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormSobre"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit26>
-      <Unit27>
+      </Unit23>
+      <Unit24>
         <Filename Value="Relatorios\view.rel.pedido.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormRelPedido"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit27>
+      </Unit24>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -20,7 +20,6 @@ type
       procedure CriaConexao;
       function ReadIniFileStr(Section, Name: String): String;
       procedure WriteIniFileStr(Section, Name, Value: String);
-      procedure WriteIniFileStrTmp(Section, Name, Value: String);
 
     public
 

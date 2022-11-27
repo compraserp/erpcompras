@@ -95,12 +95,12 @@ type
     FuncAuxiliares: TFuncAuxiliar;
     ListaProdutos: String;
 
-    procedure ControlaPage(TabVisivel, TabInvisivel: TTabSheet);
     procedure DefineAcao;
     procedure LimpaBuf;
     procedure ApagarRegistro;
     procedure AbreTelaPesquisa;
     procedure AcaoSalvar;
+    procedure ControlaPage(TabVisivel, TabInvisivel: TTabSheet);
 
     procedure ValidaStatusPedidoExclusao;
     procedure BloqueiaAltPedidoEntregue;
@@ -109,11 +109,11 @@ type
     procedure AddProdutosNoBuf;
     procedure AcaoMarcarDesmarcarTodos(ValCheck: Integer);
     procedure ZerarValorQtdComprar;
+    procedure ValidaPedidoSemProdutos;
     procedure PassaSugestaoParaQtdComprada;
     procedure ValidaItensComQtdZero;
 
     procedure PassaValorSugestaoBuf;
-
     procedure ValidaItensNaoGerados;
 
     // Ações CRUD do cabeçalho
@@ -344,6 +344,7 @@ end;
 
 procedure TFormAnaliseCompras.AcaoSalvar;
 begin
+ ValidaPedidoSemProdutos;
  ValidaItensNaoGerados;
  ValidaItensComQtdZero;
  FuncAuxiliares.CampoObrigatorio(FormAnaliseCompras, 2);
@@ -420,6 +421,15 @@ begin
   BufProdutosAnalise.First;
 end;
 
+procedure TFormAnaliseCompras.ValidaPedidoSemProdutos;
+begin
+  if(BufProdutosAnalise.IsEmpty) then begin
+    MessageDlg('Não é possível gerar um pedido sem produtos!',
+     mtWarning, [mbOk], 0);
+    Abort;
+  end;
+end;
+
 procedure TFormAnaliseCompras.PassaSugestaoParaQtdComprada;
 begin
   BufProdutosAnalise.First;
@@ -437,8 +447,8 @@ begin
  while not BufProdutosAnalise.EOF do begin
    if(BufProdutosAnalisegerapedido.Value = 1) and
       (BufProdutosAnaliseqtdComprar.Value <= 0) then begin
-         MessageDlg('O Produto ' + BufProdutosAnalisedescricao.Value +
-         ' está marcado para gerar pedido, mas está com a quantidade zero!' +
+         MessageDlg('O Produto "' + BufProdutosAnalisedescricao.Value +
+         '" está marcado para gerar pedido, mas está com a quantidade zero!' +
          ' Ajuste a quantidade ou desmarque o produto.',
          mtWarning, [mbOk], 0);
      Abort;

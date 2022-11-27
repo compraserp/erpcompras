@@ -35,7 +35,7 @@ implementation
 
 procedure TModelConexao.CriaConexao;
 begin
-  FPath := 'C:\Projetos_Lazarus\Compras_ERP\Config\';
+  FPath := 'C:\Projetos_Lazarus\Compras_ERP\Compras_ERP\Config\';
 
   WriteIniFileStr('', '', '');
   FConexao := TZConnection.Create(Nil);

@@ -95,12 +95,12 @@ type
     FuncAuxiliares: TFuncAuxiliar;
     ListaProdutos: String;
 
-    procedure ControlaPage(TabVisivel, TabInvisivel: TTabSheet);
     procedure DefineAcao;
     procedure LimpaBuf;
     procedure ApagarRegistro;
     procedure AbreTelaPesquisa;
     procedure AcaoSalvar;
+    procedure ControlaPage(TabVisivel, TabInvisivel: TTabSheet);
 
     procedure ValidaStatusPedidoExclusao;
     procedure BloqueiaAltPedidoEntregue;
@@ -109,11 +109,11 @@ type
     procedure AddProdutosNoBuf;
     procedure AcaoMarcarDesmarcarTodos(ValCheck: Integer);
     procedure ZerarValorQtdComprar;
+    procedure ValidaPedidoSemProdutos;
     procedure PassaSugestaoParaQtdComprada;
     procedure ValidaItensComQtdZero;
 
     procedure PassaValorSugestaoBuf;
-
     procedure ValidaItensNaoGerados;
 
     // Ações CRUD do cabeçalho
@@ -344,6 +344,7 @@ end;
 
 procedure TFormAnaliseCompras.AcaoSalvar;
 begin
+ ValidaPedidoSemProdutos;
  ValidaItensNaoGerados;
  ValidaItensComQtdZero;
  FuncAuxiliares.CampoObrigatorio(FormAnaliseCompras, 2);
@@ -420,6 +421,15 @@ begin
   BufProdutosAnalise.First;
 end;
 
+procedure TFormAnaliseCompras.ValidaPedidoSemProdutos;
+begin
+  if(BufProdutosAnalise.IsEmpty) then begin
+    MessageDlg('Não é possível gerar um pedido sem produtos!',
+     mtWarning, [mbOk], 0);
+    Abort;
+  end;
+end;
+
 procedure TFormAnaliseCompras.PassaSugestaoParaQtdComprada;
 begin
   BufProdutosAnalise.First;
@@ -474,7 +484,7 @@ begin
       QtdProdSemGerar := QtdProdSemGerar + 1;
     BufProdutosAnalise.Next;
   end;
-  if(QtdProdSemGerar > 0) then begin
+  if(QtdProdSemGerar > 1) then begin
     if(MessageDlg('Existem '+IntToStr(QtdProdSemGerar) +
         ' produto(s) não marcados para gerar pedido. Deseja exclui-los?',
         mtWarning, [mbYes, mbNo], 0) = mrYes) then begin
