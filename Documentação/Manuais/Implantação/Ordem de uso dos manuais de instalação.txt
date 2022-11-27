@@ -1,6 +1,6 @@
 Seguir esta ordem de configuração e instalação:
 
-00 - Instalando o Compras_ERP;
-01 - Instalação - Postgresql 13.pdf
-02 - Instalação - DBeaver Community.pdf
-03 - Instalação - Preparando a base.pdf
+00 - Instalação - Software.pdf;
+01 - Instalação - Postgresql 13.pdf;
+02 - Instalação - DBeaver Community.pdf;
+03 - Instalação - Preparando a base.pdf.
