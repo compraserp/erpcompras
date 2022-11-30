@@ -40,14 +40,11 @@ type
 
 
     public
+      procedure Atualizar(Cod: Integer; DsAux: TDataSource);
+      function Deletar(Cod: Integer): Boolean;
+      procedure Inserir(DsAux: TDataSource);
       procedure Listagem(DsAux: TDataSource);
       procedure Selecionar(Cod: Integer; DsAux: TDataSource);
-
-      procedure Atualizar(Cod: Integer; DsAux: TDataSource);
-
-      procedure Inserir(DsAux: TDataSource);
-
-      function Deletar(Cod: Integer): Boolean;
 
       constructor Create(FConexao: TZConnection);
       destructor Destroy; Override;

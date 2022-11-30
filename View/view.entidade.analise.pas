@@ -53,11 +53,15 @@ type
     LabelInfoPedidos: TLabel;
     LabelMesAnalise: TLabel;
     LabelTipoPedido: TLabel;
+    MenuSair: TMenuItem;
+    MenuItem2: TMenuItem;
+    MenurecarregaGrid: TMenuItem;
     MenuMarcarTodos: TMenuItem;
     MenuDesmarcarTodos: TMenuItem;
     MenuItem3: TMenuItem;
     MenuPassaSugestaoQtd: TMenuItem;
     ButtonImprimirPed: TSpeedButton;
+    PopupGridListagem: TPopupMenu;
     ZeraQtdComprada: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
@@ -87,6 +91,8 @@ type
     procedure MenuMarcarTodosClick(Sender: TObject);
     procedure MenuDesmarcarTodosClick(Sender: TObject);
     procedure MenuPassaSugestaoQtdClick(Sender: TObject);
+    procedure MenurecarregaGridClick(Sender: TObject);
+    procedure MenuSairClick(Sender: TObject);
     procedure ZeraQtdCompradaClick(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
   private
@@ -206,6 +212,16 @@ end;
 procedure TFormAnaliseCompras.MenuPassaSugestaoQtdClick(Sender: TObject);
 begin
   PassaSugestaoParaQtdComprada;
+end;
+
+procedure TFormAnaliseCompras.MenurecarregaGridClick(Sender: TObject);
+begin
+ DsListagem.DataSet.Refresh;
+end;
+
+procedure TFormAnaliseCompras.MenuSairClick(Sender: TObject);
+begin
+  ButtonSair.Click;
 end;
 
 procedure TFormAnaliseCompras.ZeraQtdCompradaClick(Sender: TObject);

@@ -32,14 +32,14 @@ type
 
     public
 
-      procedure ListagemMediasSaidas(CodProd: Integer; DsAux: TDataSource);
-      procedure ListagemMediasEntradas(CodProd: Integer; DsAux: TDataSource);
-
       procedure InserirDadosS(CodProduto: Integer; DsAux: TDataSource; Natureza: String);
       procedure DeletarMediaS(CodMedia: Integer);
 
       procedure InserirDadosE(CodProduto: Integer; DsAux: TDataSource; Natureza: String);
       procedure DeletarMediaE(CodMedia: Integer);
+
+      procedure ListagemMediasSaidas(CodProd: Integer; DsAux: TDataSource);
+      procedure ListagemMediasEntradas(CodProd: Integer; DsAux: TDataSource);
 
       constructor Create(FConexao: TZConnection);
       destructor Destroy; Override;

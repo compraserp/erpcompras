@@ -147,6 +147,8 @@ end;
 
 destructor TCadCompradores.Destroy;
 begin
+  if Assigned(FQuery) then
+    FreeAndNil(FQuery);
   inherited Destroy;
 end;
 

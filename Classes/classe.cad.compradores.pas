@@ -25,15 +25,15 @@ type
        FFuncao: Integer;
 
     public
-       procedure Listagem(DsAux: TDataSource);
-       procedure Selecionar(Cod: Integer; DsAux: TDataSource);
 
        procedure Atualizar(Cod: Integer; DsAux: TDataSource);
        procedure AtualizarComSenha(Cod: Integer; DsAux: TDataSource);
-
+       procedure Deletar(Cod: Integer);
        procedure Inserir(DsAux: TDataSource);
 
-       procedure Deletar(Cod: Integer);
+       procedure Listagem(DsAux: TDataSource);
+       procedure Selecionar(Cod: Integer; DsAux: TDataSource);
+
 
        constructor Create(FConexao: TZConnection);
        destructor Destroy; Override;

@@ -85,6 +85,7 @@ type
      FFuncUsuario: Integer;
      procedure RecebeDadosUsuario;
      procedure Login;
+     procedure BloqueiaAcaoUsuario(CodFuncUsuario: Integer);
 
   public
      property F_Conexao: TModelConexao read FConexao       write FConexao;
@@ -234,6 +235,7 @@ begin
   FFuncUsuario := FormLogin.F_FuncUsuario;
   LabelUserLog.Caption := 'Usuário logado: ' +
    IntToStr(FormLogin.F_CodUsuario) + ' -  ' + FormLogin.F_NomeUsuario;
+  BloqueiaAcaoUsuario(F_FuncUsuario);
 end;
 
 procedure TFormPrincipal.Login;
@@ -245,6 +247,20 @@ begin
     RecebeDadosUsuario;
     FormLogin.Release;
   end;
+end;
+
+procedure TFormPrincipal.BloqueiaAcaoUsuario(CodFuncUsuario: Integer);
+var
+  UsuAdm: Boolean;
+  I: Integer;
+begin
+  UsuAdm := (CodFuncUsuario = 2);
+  SubMenuCadProdutos.Enabled    := not(UsuAdm);
+  SubMenuGerarAnalise.Enabled   := not(UsuAdm);
+  SubMenuResumoProd.Enabled     := not(UsuAdm);
+  SubMenuEntregarPedido.Enabled := not(UsuAdm);
+  SubMenuProdSemSaidas.Enabled  := not(UsuAdm);
+  SubMenuProdSemCompras.Enabled := not(UsuAdm);
 end;
 
 procedure TFormPrincipal.ButtonSairClick(Sender: TObject);

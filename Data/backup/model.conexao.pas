@@ -91,7 +91,7 @@ function TModelConexao.ReadIniFileStr(Section, Name: String): String;
 var
   Fini: TIniFile;
 begin
-  Fini := TIniFile.Create(FPath+'config_db.INI');
+  Fini := TIniFile.Create(FPath);
   try
     Result := Fini.ReadString(Section, Name, '');
   finally

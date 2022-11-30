@@ -470,6 +470,7 @@ object FormAnaliseCompras: TFormAnaliseCompras
         Font.Quality = fqCleartype
         Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisplayMemoText]
         ParentFont = False
+        PopupMenu = PopupGridListagem
         TabOrder = 1
         TitleFont.Color = clBlack
         TitleFont.Height = -12
@@ -1273,8 +1274,8 @@ object FormAnaliseCompras: TFormAnaliseCompras
   end
   object DsListagem: TDataSource
     OnDataChange = DsListagemDataChange
-    left = 488
-    top = 512
+    left = 144
+    top = 224
   end
   object DsAnalise: TDataSource
     DataSet = BufProdutosAnalise
@@ -1379,8 +1380,8 @@ object FormAnaliseCompras: TFormAnaliseCompras
     end
   end
   object PopupMenuAnalise: TPopupMenu
-    left = 496
-    top = 168
+    left = 144
+    top = 312
     object MenuMarcarTodos: TMenuItem
       Caption = 'Marcar todos'
       OnClick = MenuMarcarTodosClick
@@ -1408,7 +1409,22 @@ object FormAnaliseCompras: TFormAnaliseCompras
     end
   end
   object DsCarregaProd: TDataSource
-    left = 363
-    top = 437
+    left = 144
+    top = 264
+  end
+  object PopupGridListagem: TPopupMenu
+    left = 608
+    top = 168
+    object MenurecarregaGrid: TMenuItem
+      Caption = 'Recarregar a grid'
+      OnClick = MenurecarregaGridClick
+    end
+    object MenuItem2: TMenuItem
+      Caption = '-'
+    end
+    object MenuSair: TMenuItem
+      Caption = 'Sair'
+      OnClick = MenuSairClick
+    end
   end
 end

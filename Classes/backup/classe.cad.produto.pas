@@ -149,6 +149,7 @@ function TCadProduto.Deletar(Cod: Integer): Boolean;
 begin
   if(ValidaProdutoPedido(Cod)) then begin
     Result := False;
+    Exit;
   end;
 
   ApagaMediaDoProduto(Cod);  // Apaga as médias primeiro
